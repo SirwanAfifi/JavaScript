@@ -15,9 +15,14 @@ function calculateDistance() {
     var oDiameter = document.getElementById("diameter");
 
     if ( oPlanet == "mercury" ) {
-        oDistance.value.write("36 milion miles");
-        oDiameter.value.write("3100 miles");
+        
+        oDistance.value ="36 milion miles";
+        oDiameter.value ="3100 miles";
         exit();
+        
+        /*oDistance.value.write("36 milion miles");
+        oDiameter.value.write("3100 miles");
+        exit();*/
     }
     else if ( oPlanet == "venus" ) {
         oDistance.value = "67 milion miles";
